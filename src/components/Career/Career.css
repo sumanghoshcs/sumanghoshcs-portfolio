@@ -1,0 +1,113 @@
+.container {
+  margin: 5px;
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  background-color: #424242;
+  box-shadow: 10px 10px 15px #303030, -10px -10px 15px #202020;
+}
+.job {
+  padding-left: 30px; /* Adjust this value to create space for the dot */
+}
+#circle {
+  background: darkred;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: -15px;
+}
+
+.line-skill {
+  border-left: 2px solid darkred;
+  height: 50%px;
+  margin-left: 20px;
+  overflow: hidden;
+}
+.carrer-details {
+  margin-right: 200px;
+}
+
+.job:before {
+  content: "";
+  top: 5%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 20px; /* Adjust this value to control the size of the dot */
+  height: 20px; /* Adjust this value to control the size of the dot */
+  border-radius: 50%;
+  background-color: red; /* Color of the dot */
+}
+
+.job:after {
+  content: "";
+
+  top: 100%;
+  left: 0;
+  width: 1px; /* Width of the line */
+  height: 400px; /* Height of the line */
+  background-color: #000; /* Color of the line */
+  transform: translateY(-50%);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: "";
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: "";
+}
+/*.job {
+	margin-bottom: 30px;
+	border-bottom: 1px solid ;
+	padding-bottom: 20px;
+}*/
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-family: Times New Roman;
+}
+
+h3 {
+  font-family: Arial;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: Georgia;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+.career {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (min-width: 200px) and (max-width: 900px) {
+  .container {
+    color: white;
+    font-size: 10px;
+    margin: 0 auto; /* Center the element horizontally */
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 0;
+    overflow-x: hidden;
+  }
+  .carrer-details {
+    margin-right: 0px;
+  }
+
+  .line-skill {
+    border-left: 2px solid darkred;
+    height: 50%px;
+    margin-left: 0px;
+    overflow: hidden;
+  }
+}
