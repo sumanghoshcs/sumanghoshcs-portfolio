@@ -10,6 +10,7 @@ import CoffeHousePhoto from "../../assets/coffehouse.png";
 import JsDocumentPhoto from "../../assets/jsdocument.png";
 import ZomatoPhoto from "../../assets/Zomato.jpg";
 import PhotoGellory from "../../assets/PhotoGellory.jpg";
+import ExpenseTracker from "../../assets/ExpenseTracker.png";
 import "./Works.css";
 import { Typography } from "@mui/material";
 
@@ -59,6 +60,12 @@ function Works() {
             <img src={EcommercePhoto} alt="" />
             <a href="https://incandescent-begonia-6e132a.netlify.app/">
               <p>Ecommerce Project</p>
+            </a>
+          </div>
+          <div className="project">
+            <img src={ExpenseTracker} alt="" />
+            <a href="https://delicate-paprenjak-0ed66e.netlify.app/">
+              <p>Expense Tracker</p>
             </a>
           </div>
           <div className="project">

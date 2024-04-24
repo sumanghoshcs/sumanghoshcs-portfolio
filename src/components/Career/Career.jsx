@@ -11,7 +11,7 @@ function Career() {
   return (
     <>
       <div class="container">
-      <Typography variant="h4">Career</Typography>
+        <Typography variant="h4">Career</Typography>
         <div className="career">
           <div class="line-skill"></div>
           <div className="carrer-details">
@@ -22,17 +22,15 @@ function Career() {
                 <Typography variant="h5">Junior UI Developer</Typography>
                 <h3>RealBooks, Kolkata</h3>
                 <p>September, 2023 - Present</p>
-                <p>
-                  Creating responsive and interactive UI with React.Build A
-                  Static Website Bitdecoders.com.
-                </p>
               </div>
             </div>
             <div className="carrer-circle-jobs">
               <div id="circle"></div>
               <div class="job">
                 <FontAwesomeIcon icon={faComputer} size="2x" />
-                <Typography variant="h5">Full Stack Web Developer Trainee</Typography>
+                <Typography variant="h5">
+                  Full Stack Web Developer Trainee
+                </Typography>
                 <h3>Newton School, Bangalore</h3>
                 <p>Jul, 2022 - September, 2023</p>
                 <p>
