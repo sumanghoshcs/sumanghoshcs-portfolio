@@ -64,7 +64,7 @@ function Works() {
           </div>
           <div className="project">
             <img src={ExpenseTracker} alt="" />
-            <a href="https://delicate-paprenjak-0ed66e.netlify.app/">
+            <a href="https://wonderful-kringle-a26f17.netlify.app/">
               <p>Expense Tracker</p>
             </a>
           </div>
