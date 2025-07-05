@@ -3,7 +3,7 @@ import "./Resume.css";
 
 const ResumeComponent = () => {
   // Replace YOUR_FILE_ID with the actual ID of your Google Drive PDF
-  const resumePdfId = "18iLL4PcvIzdZQtxMsyig2v3WiyEA5x0S";
+  const resumePdfId = "1tfiZEiqmHs5fF-qpAMwjbqX2YqCFkHb6";
   // https://drive.google.com/file/d//view?usp=sharing
   const resumePdfUrl = ` https://drive.google.com/file/d/${resumePdfId}/preview`;
 
